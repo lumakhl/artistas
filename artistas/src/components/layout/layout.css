@@ -1,0 +1,21 @@
+.font-color {
+  color: red;
+}
+
+.button-style {
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid red;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.apple-text {
+    font-weight: bold;
+    padding-left: 0.2rem;
+}

@@ -1,0 +1,38 @@
+.text-color-silver {
+  color: silver;
+}
+
+/* Cards */
+.item:first-of-type .card {
+  border-top: 1px solid silver;
+}
+
+.card {
+  border-bottom: 1px solid silver;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.3rem;
+  padding: 0.3rem;
+  flex: 1;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img {
+  border-radius: 20%;
+  width: 42px;
+  height: 42px;
+}
+
+.song-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0.3rem;
+}

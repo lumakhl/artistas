@@ -1,0 +1,34 @@
+.artist {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 4rem 3rem;
+}
+
+.img-artist {
+  width: 100%;
+  height: 20em;
+}
+
+.artist-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist-albums-info{
+    max-width: 1050px;
+}
+
+@media (min-width: 900px) {
+  .artist {
+    display: flex;
+    flex-direction: row;
+  }
+}
